@@ -1,0 +1,67 @@
+html{
+  background-color: black;
+  font-family: "Arial";
+}
+
+h1{
+  color: white;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+p{
+  color: white;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.title{
+  color: red;
+  text-align: start;
+}
+
+.logo {
+	display: block;
+	position: relative;
+	float: left;
+}
+
+.backgroundoftable{
+  width: 100%;
+  background-color: gray;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.chocofount{
+  width: 70%;
+  height: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 5px solid white;
+}
+
+.chococake{
+  width: 30%;
+  height: 30%;
+  margin-left: 1%;
+  float: left;
+}
+
+.desertstext{
+  text-align: left;
+  margin-left: 20%;
+}
+
+.copyright{
+  color: white;
+  background-color: gray;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navlink{
+
+}
