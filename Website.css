@@ -1,0 +1,211 @@
+header{
+  background-color: rgba(13, 42, 206, 0.568);
+  background-size: 100%;
+}
+
+body{
+    background-color: black;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-image: url("images/background.jpg");
+    font-family: "Quantico";
+    background-repeat: no-repeat;
+}
+
+#huooj{
+  height: 200px;
+  width:  200px;
+  float: right;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 5px solid black;
+}
+
+#MR2{
+  height: 170px;
+  width:  300px;
+  float: right;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 5px solid black;
+}
+
+#AdPic{
+  height: 100%;
+  width:  50%;
+  float: right;
+  border: 1px solid black;
+}
+
+#AdBox{
+  text-wrap: balance;
+  width: 30%;
+  background-color:rgba(0,0,0,0.5);
+  margin-bottom: 5px;  
+  padding: 3%;
+}
+
+#AdDetails , li{
+  text-align: left;
+}
+
+.CarTitle{
+  text-align: left;
+  font-size: 28px;
+}
+
+.Price{
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+a,p,label,ul,ol{
+    font-size: 20px;
+}
+
+img{
+  width: 600px;
+  height: 100px;
+}
+
+p, label,ul,ol{
+    color: white;
+    text-shadow: 2px 2px 1px black
+}
+
+h1{
+  color: #bababa;
+  text-shadow: 2px 2px 1px black
+}
+
+h2{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+  background-color: rgba(13, 42, 206, 0.568);
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+a{
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover{
+    color:orange;
+}
+
+.yt{
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height: 300px;
+    align-items: center;
+}
+
+.logo {
+  text-align: center;
+  position: relative;
+	display: block;
+	top: 5px;
+}
+
+.Toptitle{
+    text-align: center;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+    font-family: Impact;
+    width: 100%;
+    font-weight: bold;
+}
+
+.backgroundoftext{
+  width: 70%;
+  background-color:rgba(0,0,0,0.5);
+  text-align: left;
+  margin-bottom: 5px;  
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.Location{
+  width: 40%;
+  height: auto;
+  background-color:rgba(0,0,0,0.5);
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5px;
+}
+
+.textformr2{
+  width: 70%;
+  background-color:rgba(0,0,0,0.5);
+  text-wrap:pretty;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.backgroundoftable{
+  width: 60%;
+  height: 100px;
+  background-color: rgb(13, 42, 206);
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: Impact;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#contactbox{
+  width: 60%;
+  background-color: rgba(13, 42, 206, 0.514);
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 5px;
+}
+
+.navlink {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.label{
+  float: left;
+  width: 112px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.input{
+  margin-left: 1em;
+  margin-bottom: .5em;
+  width: 220px;
+}
+
+#button, #reset{
+  margin-top: .5em;
+  width: 8em;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+#button{
+  margin-left: 138px;
+}
+
+#reset{
+  margin-left: 82px;
+}
