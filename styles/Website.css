@@ -31,10 +31,10 @@ body{
 }
 
 #AdPic{
-  height: 100%;
-  width:  50%;
+  height: 250px;
+  width:  400px;
   float: right;
-  border: 1px solid black;
+  border: 1px ridge black;
 }
 
 #AdBox{
@@ -42,7 +42,7 @@ body{
   width: 30%;
   background-color:rgba(0,0,0,0.5);
   margin-bottom: 5px;  
-  padding: 3%;
+  padding: 1%;
 }
 
 #AdDetails , li{
@@ -50,7 +50,6 @@ body{
 }
 
 .CarTitle{
-  text-align: left;
   font-size: 28px;
 }
 
@@ -158,11 +157,11 @@ a:hover{
 
 .backgroundoftable{
   width: 60%;
-  height: 100px;
+  height: 50px;
   background-color: rgb(13, 42, 206);
   text-align: center;
-  margin-bottom: 5px;
   font-family: Impact;
+  padding-top: 25px;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -178,8 +177,14 @@ a:hover{
 
 .navlink {
   color: white;
+  background-color: #bababa;
+  border: 4px solid black;
+  border-radius: 10px;
   font-weight: bold;
-  text-align: center;
+  display: inline;
+  padding: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .label{
