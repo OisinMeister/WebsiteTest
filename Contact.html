@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="keywords" content="Car, Buy, Sell, Dealer">
     <title>Wang Cars</title>
     <link rel="stylesheet" href="styles/Website.css" >
     <link rel="icon" href="Images/favicon.png" type="image/png" sizes="16x16">
@@ -9,11 +10,10 @@
 
 <header>
   <a class="logo" href="index.html">
-    <img src="Images/DealerLogo.png">
+    <img src="Images/DealerLogo.png" alt="Our dealership" title="Dealership">
       </a>
       <h3>Second hand specialists</h3>
 </header>
-
 
 <body>
 
@@ -32,9 +32,9 @@
 
     <section id="contactbox">
       <form action="http:/foo.com" method="put">
-      <label for="gender">Gender :</label>
-      <input type="radio" id = "gender" name="gender" value="male"> Male
-      <input type="radio" id = "gender" name="gender" value="female"> Female
+      <label for="gender">Gender :<span class="required">*</span></label>
+      <input type="radio" id = "gender" name="gender" value="male" required> Male
+      <input type="radio" id = "gender" name="gender" value="female" required> Female
   
       <fieldset>
   

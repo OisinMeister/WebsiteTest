@@ -183,8 +183,6 @@ a:hover{
   font-weight: bold;
   display: inline;
   padding: 15px;
-  margin-right: 50px;
-  margin-left: 50px;
 }
 
 .label{
@@ -198,6 +196,11 @@ a:hover{
   margin-left: 1em;
   margin-bottom: .5em;
   width: 220px;
+}
+
+.required{
+  font-weight: bold;
+  color: red;
 }
 
 #button, #reset{
